@@ -1,6 +1,5 @@
 dtfile = open('/Users/yusuf/Downloads/rosalind_dna.txt', 'r')
-dt = dtfile.readlines()[0]
-seq = str(dt)
+seq = dtfile.readlines()[0]
 base = ['A', 'C', 'G', 'T']
 
 for base in seq:
